@@ -504,4 +504,4 @@ def update_dashboard(selected_metro, forecast_horizon):
 
 # Run the dash app
 if __name__ == '__main__':
-    app.run_server(debug=True, host="0.0.0.0", port=8080)
+    app.run(host='0.0.0.0', port=8080, debug=True)
