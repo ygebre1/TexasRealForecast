@@ -502,6 +502,6 @@ def update_dashboard(selected_metro, forecast_horizon):
     return (combined_fig, external_fig, model_params, residuals_fig, model_summary)
     
 
-# Run the app
+# Run the dash app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True, host="0.0.0.0", port=8080)
