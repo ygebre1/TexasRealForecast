@@ -452,7 +452,7 @@ def update_dashboard(selected_metro, forecast_horizon):
             
             html.Div([
                 html.P(html.B("Forecast Horizon:"), style={'marginBottom': '5px'}),
-                html.P(f"{forecast_horizon} months", style={'marginLeft': '15px'})
+                html.P(f"{forecast_horizon - 12} months", style={'marginLeft': '15px'})
             ])
         ])
     ]
