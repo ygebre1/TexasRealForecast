@@ -17,7 +17,7 @@ warnings.simplefilter('ignore', ConvergenceWarning)
 warnings.simplefilter('ignore', UserWarning)
 
 # Initialize the Dash app with external stylesheets
-app = dash.Dash(__name__, external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
+app = dash.Dash(__name__, title="Texas Real Estate Forecast",external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
 server = app.server  # For deployment
 
 # Custom CSS styles
